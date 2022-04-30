@@ -18,7 +18,6 @@ nombres = ['1', '2', '3', '4', '5', '6', '7']
 #convertimos las edades en rangos
 diabetes.Age = pd.cut(diabetes.Age, rangos, labels=nombres)
 
-
 #dividimos los datos en dos
 data1_train = diabetes[:384]
 data1_test = diabetes[384:]
@@ -115,7 +114,6 @@ print(f'accuracy de Test de Entrenamiento: {kn.score(x_test, y_test)}')
 
 # Accuracy de Validación
 print(f'accuracy de Validación: {kn.score(x_test_out, y_test_out)}')
-
 
 #RANDOM FOREST
 
