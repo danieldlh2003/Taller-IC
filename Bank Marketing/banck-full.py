@@ -43,6 +43,7 @@ data.contact.replace(['unknown', 'cellular', 'telephone'], [0, 1, 2], inplace=Tr
 data_train = data[:22000]
 data_test = data[22000:]
 
+
 x = np.array(data_train.drop(['y'], 1))
 y = np.array(data_train.y) 
 
