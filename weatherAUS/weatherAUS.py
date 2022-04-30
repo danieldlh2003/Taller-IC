@@ -120,7 +120,6 @@ print(f'accuracy de Test de Entrenamiento: {kn.score(x_test, y_test)}')
 # Accuracy de Validación
 print(f'accuracy de Validación: {kn.score(x_test_out, y_test_out)}')
 
-
 #RANDOM FOREST
 
 #seleccionar un modelo
