@@ -48,7 +48,6 @@ y = np.array(data_train.y)
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
-
 x_test_out = np.array(data_test.drop(['y'], 1))
 y_test_out = np.array(data_test.y) # 0 no acepto, 1 si acepto
 # Regresión Logística
