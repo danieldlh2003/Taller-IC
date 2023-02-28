@@ -162,7 +162,7 @@ print(f'accuracy de Test de Entrenamiento: {rf.score(x_test, y_test)}')
 
 # Accuracy de Validación
 print(f'accuracy de Validación: {rf.score(x_test_out, y_test_out)}')
-
+print("#############")
 
 
 
